@@ -2,14 +2,14 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #e0f7fa;  /* Light blue background color */ 
+    background-color: #e6f2ff;  /* Light blue background  */ 
     color: #333;
     line-height: 1.6;
 }
 
 /* Header styles */
 header {
-    background-color: #333;
+    background-color: #004080; /* Dark blue */ 
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -37,13 +37,13 @@ nav ul li a {
     color: #fff;
     font-weight: bold;
     padding: 10px 15px;
-    background-color: #555;
+    background-color: #0073e6; /*Bright blue */ 
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
 nav ul li a:hover {
-    background-color: #777;
+    background-color: #0059b3; /* Darker blue */ 
 }
 
 /* Main content styles */
@@ -87,7 +87,7 @@ ul li p {
 
 /* Footer styles */
 footer {
-    background-color: #333;
+    background-color: #004080; 
     color: #fff;
     text-align: center;
     padding: 15px 0;
@@ -104,7 +104,7 @@ footer p {
 /* Button styles */
 button, a.button {
     display: inline-block;
-    background-color: #3f51b5;
+    background-color: #ff6600; /* Bright orange */ 
     color: #fff;
     padding: 10px 20px;
     text-align: center;
@@ -115,7 +115,7 @@ button, a.button {
 }
 
 button:hover, a.button:hover {
-    background-color: #2c387e;
+    background-color: #cc5200; /* Darker Orange */ 
 }
 
 /* Responsive Design */
